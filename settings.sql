@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE tunr2;
+CREATE USER tunruser2 WITH PASSWORD 'tunr';
+GRANT ALL PRIVILEGES ON DATABASE tunr2 TO tunruser2;
